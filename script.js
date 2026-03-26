@@ -1,7 +1,7 @@
 const button = document.querySelector('.share__button');
 const container = document.querySelector('.share__container');
 
-button.addEventListener('click', () => {
+button && button.addEventListener('click', () => {
     container.classList.toggle('active');
     button.classList.toggle('active');
 });
